@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portofolio Merzy</title>
+<style>
+/* Reset default margins and paddings */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, .projects, .about, footer {
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.projects .project {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.projects .project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+    float: left;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .about img {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Merzy's Portfolio</h1>
+        <p>Welcome to my portfolio website! I'm excited to showcase my work and skills.</p>
+    </header>
+    <section class="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>This is a description of my first project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>This is a description of my second project. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </section>
+    <section class="about">
+        <h2>About Me</h2>
+        <img src="profile.jpg" alt="Merzy">
+        <p>I'm Merzy, a passionate web developer with a love for creating beautiful and functional websites. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eget nisl in justo mattis.</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Merzy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
